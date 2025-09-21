@@ -55,38 +55,6 @@ High_Dimensional_Linear_Models/
 - **`output/`**: Contains all generated files (figures, tables, results datasets)
 - **`scripts/`**: Contains analysis code (notebooks and scripts)
 
-## 📋 Assignment Requirements and Progress
-
-### Part 1: LASSO Analysis (8 points)
-
-| Requirement | Points | Implementation |
-|-------------|--------|----------------|
-| Remove observations with missing values | 0.25 | ✅ Complete across all languages |
-| Create histograms of literacy rates with analysis | 1.00 | ✅ Complete with commentary |
-| Low-dimensional LASSO model with test R² | 2.00 | ✅ Complete with performance metrics |
-| High-dimensional model (interactions + squared terms) | 2.00 | ✅ Complete with feature engineering |
-| LASSO path analysis (λ: 10,000 → 0.001) | 2.75 | ✅ Complete with visualization |
-| **Subtotal** | **8.00** | **✅ Complete** |
-
-### Part 2: Potential Outcomes and RCTs (9 points)
-
-| Requirement | Points | Implementation |
-|-------------|--------|----------------|
-| **Data Simulation (3 points)** | | |
-| - Simulate dataset (n=1000, covariates, treatment, outcome) | 2.00 | ✅ Complete |
-| - Balance check across treatment groups | 1.00 | ✅ Complete |
-| **Estimating ATE (3 points)** | | |
-| - Simple regression (Y ~ D) | 1.00 | ✅ Complete |
-| - Controlled regression (Y ~ D + X₁ + X₂ + X₃ + X₄) | 1.00 | ✅ Complete |
-| - Compare estimates and standard errors | 1.00 | ✅ Complete |
-| **LASSO and Variable Selection (3 points)** | | |
-| - LASSO model on covariates (excluding treatment) | 1.00 | ✅ Complete |
-| - Re-estimate ATE with LASSO-selected variables | 1.00 | ✅ Complete |
-| - Compare all estimates and discuss advantages | 1.00 | ✅ Complete |
-| **Subtotal** | **9.00** | **✅ Complete** |
-
-### **Total Score: 17.00/17.00 points** ✅
-
 ## 🔍 Key Features
 
 ### Professional Structure
