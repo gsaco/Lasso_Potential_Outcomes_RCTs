@@ -23,7 +23,7 @@ This assignment consists of two main parts:
 The repository follows a professional structure with clear separation of concerns:
 
 ```
-High_Dimensional_Linear_Models/
+Lasso Potential Outcomes RCTs/
 ├── Python/
 │   ├── input/                          # Raw datasets
 │   │   └── Districtwise_literacy_rates.xlsx
