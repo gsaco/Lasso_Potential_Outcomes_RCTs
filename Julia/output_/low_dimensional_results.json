@@ -1,0 +1,31 @@
+{
+  "coefficients": {},
+  "features": [
+    "GROWTHRATE",
+    "SEXRATIO",
+    "ENR501",
+    "TCH1",
+    "SCHTOT"
+  ],
+  "n_test_obs": 156,
+  "model_type": "Low-Dimensional OLS",
+  "test_r2": 0.16658721140133648,
+  "n_features": 5,
+  "n_train_obs": 469,
+  "cv_results": {
+    "std_r2": 0.10436718218542644,
+    "confidence_interval": [
+      -0.04263759472802081,
+      0.3664817594388508
+    ],
+    "individual_scores": [
+      0.03389844871940395,
+      0.16767701973936255,
+      0.3027840227400461,
+      0.21234113738917437,
+      0.09290978318908805
+    ],
+    "mean_r2": 0.161922082355415
+  },
+  "train_r2": 0.21998172574980868
+}
