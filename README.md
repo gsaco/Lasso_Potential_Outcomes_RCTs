@@ -1,6 +1,6 @@
 # LASSO Regression and Potential Outcomes Analysis for Causal Inference
 
-A comprehensive implementation of LASSO regression techniques for high-dimensional data analysis and potential outcomes modeling for randomized controlled trials. This repository demonstrates professional statistical computing practices across Python, R, and Julia environments, focusing on female literacy prediction using Indian district-level data and causal inference methodologies.
+A implementation of LASSO regression techniques for high-dimensional data analysis and potential outcomes modeling for randomized controlled trials. 
 
 ## Project Overview
 
@@ -37,7 +37,6 @@ Lasso_Potential_Outcomes_RCTs/
 │   │   ├── lasso_analysis.ipynb           # Female literacy LASSO analysis
 │   │   └── potential_outcomes_rcts.ipynb  # Causal inference methods
 │   ├── requirements.txt             # R package dependencies
-│   ├── requirements.R               # R installation script
 │   ├── input/                       # Data directory
 │   └── output/                      # Results and visualizations
 ├── Julia/                           # Julia implementation
@@ -45,8 +44,6 @@ Lasso_Potential_Outcomes_RCTs/
 │   │   ├── lasso_analysis.ipynb           # Female literacy LASSO analysis
 │   │   └── potential_outcomes_rcts.ipynb  # Causal inference methods
 │   ├── requirements.txt             # Julia package dependencies
-│   ├── Project.toml                 # Julia project configuration
-│   ├── Manifest.toml               # Julia dependency manifest
 │   ├── input/                       # Data directory
 │   └── output/                      # Results and visualizations
 ├── .gitignore                       # Version control exclusions
