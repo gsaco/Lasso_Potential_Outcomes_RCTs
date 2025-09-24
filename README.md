@@ -161,7 +161,6 @@ jupyter notebook scripts/lasso_analysis.ipynb
 
 ### Version Control
 - **Clean structure**: Organized directory hierarchy
-- **Proper .gitignore**: Excludes system files (.DS_Store) and configuration files (.toml)
 - **Cross-platform**: Compatible implementations across operating systems
 
 ## License
