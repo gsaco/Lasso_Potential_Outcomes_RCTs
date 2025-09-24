@@ -1,0 +1,12 @@
+{
+  "feature_selection_rate": 18.388429752066116,
+  "train_r2": 0.7638925861842605,
+  "selected_features": 89,
+  "n_test_obs": 156,
+  "cv_loss_minimum": 62.90420218048684,
+  "model_type": "High-Dimensional LASSO",
+  "optimal_lambda_cv": 0.0718739419444548,
+  "test_r2": 0.5705767601827496,
+  "n_train_obs": 469,
+  "total_features": 484
+}

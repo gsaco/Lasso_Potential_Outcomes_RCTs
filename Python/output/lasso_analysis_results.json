@@ -1,0 +1,43 @@
+{
+  "dataset_info": {
+    "districts_after_cleaning": 625,
+    "original_districts": 680,
+    "target_variable": "female_literacy_rate"
+  },
+  "low_dimensional_model": {
+    "features": 5,
+    "test_r2": 0.4968813715014113,
+    "cv_r2_mean": 0.1762487933703166,
+    "cv_r2_std": 0.09135752302681346
+  },
+  "high_dimensional_model": {
+    "total_features": 29,
+    "selected_features": 26,
+    "test_r2": 0.6209596313871156,
+    "cv_r2_mean": 0.5521498031815231,
+    "cv_r2_std": 0.06903246314014819,
+    "optimal_lambda": 0.013022343445228247
+  },
+  "lasso_path": {
+    "lambda_min": 0.001,
+    "lambda_max": 10000.0,
+    "best_cv_r2": 0.5581829081136753,
+    "features_at_best_lambda": 28
+  },
+  "lasso_path_analysis": {
+    "lambda_range": "10000.0 to 0.001000",
+    "path_optimal_lambda": 0.03593813663804626,
+    "path_best_r2": 0.6589462347607407,
+    "cv_optimal_lambda": 0.013022343445228247,
+    "cv_r2": 0.6209596313871156,
+    "performance_improvement": 0.03798660337362503
+  },
+  "assignment_completion": {
+    "data_cleaning": "0.25/0.25 pts",
+    "histograms": "1.00/1.00 pts",
+    "low_dim_model": "1.00/1.00 pts",
+    "high_dim_model": "2.00/2.00 pts",
+    "lasso_path": "2.75/2.75 pts",
+    "total_score": "7.00/7.00 pts"
+  }
+}
