@@ -68,10 +68,6 @@ Thumbs.db
 *.csv
 *.json
 
-# Keep only essential data files
-!*/input/*.xlsx
-!*/input/*.xls
-
 # Temporary files
 *.tmp
 *.temp
