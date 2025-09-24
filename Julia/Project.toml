@@ -1,13 +1,11 @@
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
-GLMNet = "8d5d533d-e8e5-5d1b-9e9b-efa1ee92e5e4"
+GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
+GLMNet = "8d5ece8b-de18-5317-b113-243142960cc6"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
+MLJLinearModels = "6ee0df7b-362f-4a72-a706-9e79364fb692"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-
-[compat]
-julia = "1.6"
+StatsModels = "3eaba693-59b7-5ba5-a881-562e759f1c8d"
+XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
