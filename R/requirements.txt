@@ -1,0 +1,20 @@
+# R Package Dependencies for LASSO and Potential Outcomes Analysis
+# Core data manipulation and I/O
+readxl>=1.3.1
+dplyr>=1.0.7
+tidyverse>=1.3.1
+
+# Statistical modeling and machine learning
+glmnet>=4.1-2
+caret>=6.0-88
+broom>=0.7.9
+
+# Visualization and graphics
+ggplot2>=3.3.5
+scales>=1.1.1
+gridExtra>=2.3
+cowplot>=1.1.1
+
+# Utilities and documentation
+knitr>=1.34
+rmarkdown>=2.10
