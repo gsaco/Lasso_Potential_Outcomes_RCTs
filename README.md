@@ -27,6 +27,7 @@ This project analyzes female literacy rates across Indian districts using advanc
 Lasso_Potential_Outcomes_RCTs/
 ├── Python/                          # Python implementation
 │   ├── scripts/
+|   |   ├── comments.pdf                   # Answers of the comments section (it is in pdf to be able to paste our sketch)
 │   │   ├── lasso_analysis.ipynb           # Female literacy LASSO analysis
 │   │   └── potential_outcomes_rcts.ipynb  # Causal inference methods
 │   ├── requirements.txt             # Python dependencies
@@ -34,6 +35,7 @@ Lasso_Potential_Outcomes_RCTs/
 │   └── output/                      # Results and visualizations
 ├── R/                               # R implementation  
 │   ├── scripts/
+|   |   ├── comments.pdf                   # Answers of the comments section (it is in pdf to be able to paste our sketch)
 │   │   ├── lasso_analysis.ipynb           # Female literacy LASSO analysis
 │   │   └── potential_outcomes_rcts.ipynb  # Causal inference methods
 │   ├── requirements.txt             # R package dependencies
@@ -41,6 +43,7 @@ Lasso_Potential_Outcomes_RCTs/
 │   └── output/                      # Results and visualizations
 ├── Julia/                           # Julia implementation
 │   ├── scripts/
+|   |   ├── comments.pdf                   # Answers of the comments section (it is in pdf to be able to paste our sketch)
 │   │   ├── lasso_analysis.ipynb           # Female literacy LASSO analysis
 │   │   └── potential_outcomes_rcts.ipynb  # Causal inference methods
 │   ├── requirements.txt             # Julia package dependencies
