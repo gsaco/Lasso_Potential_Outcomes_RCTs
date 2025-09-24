@@ -15,7 +15,7 @@ This project analyzes female literacy rates across Indian districts using advanc
 ### Core Methodologies
 
 #### 1. LASSO Regression for Female Literacy Prediction
-- **Low-dimensional specification**: Uses economic intuition to select key variables while avoiding highly correlated predictors (e.g., excluding male literacy when overall literacy is included)
+- **Low-dimensional specification**: Uses economic intuition to select key variables while avoiding highly correlated predictors (e.g., excluding male literacy and overall literacy)
 - **High-dimensional specification**: Comprehensive feature engineering including interactions and polynomial terms, resulting in 400+ variables
 - **Regularization analysis**: Complete LASSO path evaluation with cross-validation
 - **Performance metrics**: Out-of-sample R² evaluation and feature selection assessment
