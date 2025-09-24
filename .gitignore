@@ -59,14 +59,6 @@ deps/deps.jl
 ehthumbs.db
 Thumbs.db
 
-# Output files (generated results and figures)
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.html
-*.csv
-*.json
 
 # Temporary files
 *.tmp
