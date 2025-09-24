@@ -59,7 +59,7 @@ deps/deps.jl
 ehthumbs.db
 Thumbs.db
 
-# Output files (keep directory structure but ignore large outputs)
+# Output files (generated results and figures)
 *.png
 *.jpg
 *.jpeg
@@ -67,11 +67,10 @@ Thumbs.db
 *.html
 *.csv
 *.json
-*.xlsx
-*.xls
 
-# But keep the input data file
-!High_Dimensional_Linear_Models/*/input/Districtwise_literacy_rates.xlsx
+# Keep only essential data files
+!*/input/*.xlsx
+!*/input/*.xls
 
 # Temporary files
 *.tmp

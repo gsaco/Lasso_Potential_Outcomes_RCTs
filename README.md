@@ -1,161 +1,136 @@
-# Lasso Potential Outcomes RCTs - Assignment 2
+# LASSO Potential Outcomes for Randomized Controlled Trials
 
-This repository contains a comprehensive implementation of two statistical analyses: **LASSO regression for high-dimensional data** and **Potential Outcomes analysis for Randomized Controlled Trials (RCTs)**. All analyses are implemented in **Python**, **R**, and **Julia** to demonstrate cross-language reproducibility and professional coding practices.
+A comprehensive statistical analysis toolkit implementing LASSO regression for high-dimensional data and Potential Outcomes analysis for Randomized Controlled Trials (RCTs). This repository provides cross-platform implementations in Python, R, and Julia, ensuring reproducibility and demonstrating professional coding practices across different statistical computing environments.
 
-## 📊 Assignment Overview
+## Overview
 
-This assignment consists of two main parts:
-1. **LASSO Analysis** (8 points): High-dimensional linear models for female literacy rate prediction
-2. **Potential Outcomes and RCTs** (9 points): Simulation and analysis of treatment effects
+This project implements two sophisticated statistical methodologies:
 
-### Part 1: LASSO Analysis (8 points)
-- **Data**: District-wise literacy rates from India (`Districtwise_literacy_rates.xlsx`)
-- **Goal**: Estimate female literacy rates using LASSO regression
-- **Implementation**: Python, R, and Julia
+### 1. LASSO Regression Analysis
+High-dimensional linear modeling for predictive analytics using district-wise literacy data from India. The implementation focuses on feature selection and regularization techniques to handle multicollinearity and improve model interpretability.
 
-### Part 2: Potential Outcomes and RCTs (9 points) 
-- **Data**: Simulated dataset with treatment assignment
-- **Goal**: Estimate Average Treatment Effects (ATE) and explore LASSO for variable selection
-- **Implementation**: Python, R, and Julia
+**Key Features:**
+- Regularization path analysis
+- Cross-validation for optimal λ selection  
+- Feature importance assessment
+- Model performance evaluation
 
-## 🏗️ Repository Structure
+### 2. Potential Outcomes and Causal Inference
+Advanced causal inference methods for analyzing treatment effects in randomized controlled trials. The analysis includes simulation-based approaches and variable selection techniques.
 
-The repository follows a professional structure with clear separation of concerns:
+**Key Features:**
+- Average Treatment Effect (ATE) estimation
+- Randomization inference
+- Covariate balance assessment
+- LASSO-based variable selection for causal models
+
+## Repository Structure
 
 ```
-Lasso Potential Outcomes RCTs/
+Lasso_Potential_Outcomes_RCTs/
 ├── Python/
-│   ├── input/                          # Raw datasets
-│   │   └── Districtwise_literacy_rates.xlsx
-│   ├── output/                         # Generated files (figures, tables, results)
-│   ├── scripts/                        # Analysis code
-│   │   ├── lasso_analysis.ipynb        # LASSO implementation
-│   │   └── potential_outcomes_rcts.ipynb # RCT analysis
-│   └── requirements.txt                # Python dependencies
-├── R/
-│   ├── input/
-│   │   └── Districtwise_literacy_rates.xlsx
-│   ├── output/
 │   ├── scripts/
 │   │   ├── lasso_analysis.ipynb
 │   │   └── potential_outcomes_rcts.ipynb
-│   └── requirements.R                  # R dependencies
-└── Julia/
-    ├── input/
-    │   └── Districtwise_literacy_rates.xlsx
-    ├── output/
-    ├── scripts/
-    │   ├── lasso_analysis.ipynb
-    │   └── potential_outcomes_rcts.ipynb
-    └── Project.toml                     # Julia dependencies
+│   └── requirements.txt
+├── R/
+│   ├── scripts/
+│   │   ├── lasso_analysis.ipynb
+│   │   └── potential_outcomes_rcts.ipynb
+│   └── requirements.R
+├── Julia/
+│   ├── scripts/
+│   │   ├── lasso_analysis.ipynb
+│   │   └── potential_outcomes_rcts.ipynb
+│   ├── Project.toml
+│   └── Manifest.toml
+├── LICENSE
+└── README.md
 ```
 
-### Directory Organization
-- **`input/`**: Contains all raw files and datasets used by scripts
-- **`output/`**: Contains all generated files (figures, tables, results datasets)
-- **`scripts/`**: Contains analysis code (notebooks and scripts)
+Each language implementation is self-contained with:
+- **Analysis scripts**: Jupyter notebooks with comprehensive documentation
+- **Dependencies**: Language-specific requirement files
+- **Input data**: Integrated within notebook workflows
+- **Output generation**: Automated result export and visualization
 
-## 🔍 Key Features
+## Technical Implementation
 
-### Professional Structure
-- **Modular Organization**: Clear separation of input data, analysis scripts, and outputs
-- **Cross-Language Implementation**: Identical analyses in Python, R, and Julia
-- **Dependency Management**: Requirements files for each language
-- **Version Control**: Proper .gitignore for clean repository management
+### Python
+- **Environment**: Python 3.8+
+- **Key Libraries**: scikit-learn, pandas, matplotlib, seaborn, statsmodels
+- **Features**: Comprehensive data preprocessing, advanced visualization, statistical validation
 
-### Analysis Quality
-- **Comprehensive Documentation**: Detailed notebooks with explanations
-- **Reproducible Results**: Consistent findings across all implementations
-- **Professional Visualizations**: High-quality plots and figures
-- **Statistical Rigor**: Proper hypothesis testing and model validation
+### R  
+- **Environment**: R 4.0+
+- **Key Libraries**: glmnet, ggplot2, dplyr, caret, readxl
+- **Features**: Native statistical computing, publication-quality graphics, robust model diagnostics
 
-## 🛠 Technical Implementation
+### Julia
+- **Environment**: Julia 1.6+
+- **Key Libraries**: GLMNet.jl, DataFrames.jl, Plots.jl, StatsBase.jl
+- **Features**: High-performance computing, modern scientific programming, efficient memory usage
 
-### Python Implementation
-- **Libraries**: pandas, scikit-learn, matplotlib, seaborn, statsmodels
-- **Features**: Cross-validation, polynomial features, comprehensive visualization
-- **Environment**: Jupyter notebooks with full documentation
-
-### R Implementation  
-- **Libraries**: readxl, glmnet, ggplot2, dplyr, caret
-- **Features**: Native LASSO implementation, elegant statistical graphics
-- **Environment**: R notebooks with statistical rigor
-
-### Julia Implementation
-- **Libraries**: DataFrames.jl, GLMNet.jl, Plots.jl, XLSX.jl
-- **Features**: High-performance computation, modern scientific computing
-- **Environment**: Julia notebooks demonstrating language capabilities
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
-- Python 3.8+ with Jupyter
-- R 4.0+ with IRkernel (for Jupyter)  
-- Julia 1.6+ with IJulia
+- **Python**: 3.8+ with Jupyter support
+- **R**: 4.0+ with IRkernel for Jupyter integration
+- **Julia**: 1.6+ with IJulia package
 
-### Installation
+### Installation & Usage
 
 #### Python Environment
 ```bash
-cd High_Dimensional_Linear_Models/Python/
+cd Python/
 pip install -r requirements.txt
 jupyter notebook scripts/lasso_analysis.ipynb
 ```
 
-#### R Environment
+#### R Environment  
 ```bash
-cd High_Dimensional_Linear_Models/R/
-# Install packages listed in requirements.R
-Rscript -e "install.packages(c('readxl', 'glmnet', 'ggplot2', 'dplyr', 'caret', 'MASS', 'jsonlite'))"
+cd R/
+# Install required packages
+Rscript -e "source('requirements.R')"
 jupyter notebook scripts/lasso_analysis.ipynb
 ```
 
 #### Julia Environment
 ```bash
-cd High_Dimensional_Linear_Models/Julia/
+cd Julia/
 julia --project=. -e "using Pkg; Pkg.instantiate()"
 jupyter notebook scripts/lasso_analysis.ipynb
 ```
 
-## 📊 Expected Outputs
+## Results and Outputs
 
-Each implementation generates:
+### LASSO Analysis Results
+- **Model Performance Metrics**: Cross-validated R² scores and prediction accuracy
+- **Regularization Analysis**: LASSO path visualization showing feature selection behavior
+- **Feature Importance**: Coefficient plots and variable selection summaries
+- **Statistical Validation**: Residual analysis and model diagnostics
 
-### LASSO Analysis
-- **Data preprocessing summary**: Missing value handling statistics
-- **Literacy rate histograms**: Distribution analysis with commentary
-- **Model performance metrics**: R² scores for low and high-dimensional models
-- **LASSO path visualization**: Feature selection behavior across λ values
-- **Results export**: JSON summaries and CSV data
+### Potential Outcomes Analysis Results
+- **Treatment Effect Estimates**: ATE calculations with confidence intervals
+- **Balance Assessment**: Covariate balance tests across treatment groups  
+- **Causal Inference**: Multiple estimation strategies comparison
+- **Variable Selection**: LASSO-guided covariate adjustment
 
-### Potential Outcomes Analysis  
-- **Simulated dataset**: 1000 observations with treatment assignment
-- **Balance check results**: Statistical tests across treatment groups
-- **ATE estimates**: Simple, controlled, and LASSO-based estimates
-- **Comparison tables**: Standard errors and confidence intervals
-- **Variable selection**: LASSO-identified important covariates
+## Quality Assurance
 
-## 🎓 Educational Value
+- **Reproducibility**: Identical results across all three language implementations
+- **Statistical Rigor**: Proper hypothesis testing and uncertainty quantification
+- **Code Quality**: Professional documentation and error handling
+- **Version Control**: Clean repository structure with appropriate .gitignore
 
-This assignment demonstrates:
-- **Advanced Statistical Methods**: LASSO regression and causal inference
-- **Data Science Workflow**: From raw data to publication-ready results
-- **Cross-Language Programming**: Identical implementations in Python, R, Julia
-- **Professional Development**: Industry-standard code organization
-- **Reproducible Research**: Version control and dependency management
+## License
 
-## 📈 Results Summary
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- **Perfect Implementation**: All requirements met across all languages
-- **Statistical Rigor**: Proper hypothesis testing and model validation  
-- **Professional Quality**: Publication-ready code and documentation
-- **Cross-Platform Compatibility**: Identical results across all implementations
+## Contributing
+
+This repository demonstrates best practices for statistical analysis and cross-platform implementation. All code follows professional standards for reproducible research.
 
 ---
 
-**Authors**: Assignment 2 - Group 1  
-**Course**: Causal AI Course  
-**Institution**: [Institution Name]  
-**Date**: 2025
-
-*This repository demonstrates professional implementation of advanced statistical methods with emphasis on reproducibility, documentation, and cross-language compatibility.*
+*This repository showcases advanced statistical methods implementation with emphasis on reproducibility, professional documentation, and cross-language compatibility for modern data science workflows.*
