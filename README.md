@@ -1,5 +1,10 @@
 # LASSO Regression and Potential Outcomes Analysis for Causal Inference
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![R](https://img.shields.io/badge/R-4.0%2B-blue)](https://www.r-project.org/)
+[![Julia](https://img.shields.io/badge/Julia-1.6%2B-purple)](https://julialang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A implementation of LASSO regression techniques for high-dimensional data analysis and potential outcomes modeling for randomized controlled trials. 
 
 ## Project Overview
