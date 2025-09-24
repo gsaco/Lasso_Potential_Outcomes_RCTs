@@ -139,30 +139,6 @@ julia -e 'using Pkg; [Pkg.add(split(line, ">=")[1]) for line in readlines("requi
 jupyter notebook scripts/lasso_analysis.ipynb
 ```
 
-## Key Results and Findings
-
-### LASSO Analysis Performance
-- **Low-dimensional model**: Test R² ≈ 0.49 (demonstrates baseline performance with economic variables)
-- **High-dimensional model**: Test R² ≈ 0.69 (shows improvement through feature engineering and regularization)
-- **Feature selection**: LASSO automatically selects ~160 out of 400+ features in high-dimensional case
-
-### Causal Inference Results  
-- **Simple ATE**: Baseline treatment effect estimation
-- **LASSO-adjusted ATE**: Improved precision through variable selection
-- **Randomization inference**: Robust hypothesis testing for treatment effects
-
-## Professional Standards
-
-### Code Quality
-- **Documentation**: Comprehensive inline comments and markdown explanations
-- **Reproducibility**: Fixed random seeds and explicit version requirements
-- **Error handling**: Robust data validation and missing value treatment
-- **Visualization**: Publication-ready graphics with consistent styling
-
-### Version Control
-- **Clean structure**: Organized directory hierarchy
-- **Cross-platform**: Compatible implementations across operating systems
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
